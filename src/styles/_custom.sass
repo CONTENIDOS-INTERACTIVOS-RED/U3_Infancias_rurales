@@ -15,21 +15,66 @@
 .brounded-sm
   border-radius: 8px !important
 
+.img-a 
+  display: block
+  margin: auto
+
+.img-t
+  width: auto !important
+  height: auto !important 
+
+.j1
+  display: grid
+  align-items: center  
+
+.br-1
+  border-radius: 10px !important  
+
+.color
+  &-1
+    color: #292584 !important     
+
 .bg-color
   &-1
-    background-color: #EAF8FD
+    background-color: #C3F3FB
   &-2
-    background-color: #FFFBE8
+    background-color: #FDFBEC
   &-3
-    background-color: #F0E9F6
+    background-color: #453179
+    *
+      color: white
   &-4
-    background-color: #EAF8FD
+    background-color: #FBF4C9
+  &-5
+    background-color: #D9D5E3
+  &-6
+    background-color: #497F88
+    *
+      color: white       
+  &-7
+    background-color: #FDFBEC
+  &-8
+    background-color: #CBDDF7
+  &-9
+    background-color: #497F88
+    *
+      color: white
+  &-10
+    background-color: #EDF3FC 
+  &-11
+    background-color: #DCE8FA    
   &-info
-    background-color: #E8EEFD
+    background-image: url("../assets/bg/bg-info.png") !important
   &-sintesis
     background-color: #F9F9F9
   &-white
     background-color: #fff
+
+.dash  
+  border-style: dashed
+  border-width: 1px
+  color: #83793C
+
 
 .border-top
   &.color-primario
@@ -41,20 +86,39 @@
 
 // Full Width Background
 .bg-full-width
-  background-size: cover
-  background-repeat: no-repeat
-  background-position: bottom
-  margin-inline: -3.3rem
-  @media screen and (max-width: $bp-max-sm)
-    padding-left: 1.5rem
-    padding-right: 1.5rem
+  &-1
+    background-size: 100% 100%
+    background-repeat: no-repeat
+    background-position: bottom
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem
+
+  &-2
+    background-size: 100% 78%
+    background-repeat: no-repeat
+    background-position: bottom
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem   
+
+  &-3
+    background-size: 100% 63%
+    background-repeat: no-repeat
+    background-position: top
+    margin-inline: -3.3rem
+    @media screen and (max-width: $bp-max-sm)
+      padding-left: 1.5rem
+      padding-right: 1.5rem     
 
 .bg-fondo
   &-1
     background-image: url("../assets/bg/bg1.png") !important
-    background-position: top
+
   &-2
-    // background-image: url("../assets/bg/bg2.png") !important
+    background-image: url("../assets/bg/bg2.png") !important
     background-position: bottom
   &-slider
     background-image: url("../assets/bg/bg-slider.png") !important
@@ -141,9 +205,10 @@ $custom-card-img-height: 322px
 
 .shadow-soft
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 10px 15px rgba(0, 0, 0, 0.05)
-
+.sha
+  border: 1px solid rgba(0, 0, 0, 0.055) 
 .tabs-content
-  background-color: #F4F4F4
+  background-color: #EDF3FC
 
 .material-complementario
   p,a
@@ -227,3 +292,39 @@ th.bg-color-tabla
 
 .bordes
   border: 1px solid lightgray !important
+
+.acordion__contenido
+  background-color: #E8E7F2 !important    
+
+.slyder-f__btn i
+  background-color: #453179 !important  
+
+.slyder-a__tipo-b
+  background-color: #161348 !important    
+.slyder-a__bullets__item
+  background-color: #8591AA !important
+  border-color: #8591AA !important        
+
+.slyder-a__bullets__item--active
+  background-color: #E2FAFB !important
+  border-color: #E2FAFB !important    
+
+.tabla-a-1 thead 
+  background-color: #292584 !important 
+  *
+    color: white   
+
+th.bg-color-tabla
+  background-color: #453179 !important
+  color: #fff !important    
+
+.acordion__header
+  background-color: #D3D2E6 !important
+
+.acordion__header--active
+  background-color: #292584 !important
+  h4, i
+    color: white !important
+
+.acordion__contenido
+  background-color: #E8E7F2 !important       
