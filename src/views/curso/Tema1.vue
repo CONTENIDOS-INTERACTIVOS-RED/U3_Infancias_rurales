@@ -229,7 +229,7 @@
           .col-lg-8.mb-3.mb-lg-0
             h2.mb-4(data-aos="flip-up") Decreto 1075 del 2015 
             p.mb-4(data-aos="fade-right") En el PDF Decreto 1075 del 2015, se analiza el contenido del Decreto Único Reglamentario del Sector Educación, con especial énfasis en las disposiciones que fortalecen la educación rural, abarcando temas como metodologías flexibles, infraestructura, inclusión, formación docente y acceso a la educación superior, en contextos apartados.
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
