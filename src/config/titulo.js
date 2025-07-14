@@ -1,1 +1,1 @@
-module.exports = 'CIRED'
+module.exports = 'Leyes y normas de la educación rural'
